@@ -1,0 +1,85 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ping Pong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+</head>
+
+<body background="pingdong,.jpg">
+    <center>
+        <div class="btn btn-primary heading">
+            <h3>Ai Ping Pog Pong</h3>
+            <button class="btn btn-info">How to Play</button><button class="btn btn-info"
+                data-toggle="modal" data-target="#credits">Credits
+            </button>
+           
+
+            
+            
+        </div>
+        <div class="starting">
+            <h1>PING PONG <span style="color: lightseagreen">POG</span> AI</h1><br>Play with AI, with AI!
+            <br>
+            <a class="btn btn-info" href="#secstion2">go to game </a>
+        </div>
+        <br>
+        <br>
+
+        <div id="secstion2">
+            <button class="btn btn-success">
+                Play
+            </button>
+            <br>
+
+            <h3 id="status " class="btn btn-warning"></h3>
+            <div id="emptyCanvas"></div>
+
+
+            <br>
+            <br>
+        </div>
+
+
+
+
+
+
+
+
+
+    </center>
+    <div class="modal fade" id="credits" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="credits_Title">Credits</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Credits to "prashant shukla"
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
